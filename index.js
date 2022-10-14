@@ -13,7 +13,7 @@ function app() {
 
     const order = ["Thịnh", "Tuyến", "Hoàng", "Long", "Bách", "Cường", "Thuận", "Khoa"]
 
-    const firstDate = new Date(2022, 9, 13);
+    const firstDate = new Date(2022, 9, 14);
     const currDate = new Date();
 
     const dateCount = DateDiff.inDays(firstDate, currDate);
