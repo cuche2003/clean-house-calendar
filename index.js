@@ -24,8 +24,8 @@ function app() {
     const orderDiv = document.createElement("div");
     const turnDiv = document.createElement("div");
 
-    dateDiv.innerHTML += `Ngày bắt đầu là ngày <b>${firstDate.toLocaleDateString("en-US")}</b><br>`;
-    dateDiv.innerHTML += `Ngày hôm nay là ngày <b>${currDate.toLocaleDateString("en-US")}</b><br>`;
+    dateDiv.innerHTML += `Ngày bắt đầu là ngày <b>${firstDate.toLocaleDateString("vi-VN")}</b><br>`;
+    dateDiv.innerHTML += `Ngày hôm nay là ngày <b>${currDate.toLocaleDateString("vi-VN")}</b><br>`;
     dateDiv.innerHTML += `Kể từ ngày bắt đầu, hôm nay là ngày thứ <b>${dateCount}</b>`;
 
     orderDiv.innerHTML += `Thứ tự: [`;
